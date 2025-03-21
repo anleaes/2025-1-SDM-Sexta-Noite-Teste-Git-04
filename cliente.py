@@ -1,8 +1,11 @@
+
 class Cliente:
- def __init__ (self , nome, endereco, idade ):
+ def __init__ (self , nome, endereco, celular, email, genero):
   self._nome = nome 
   self._endereco = endereco
-  self._idade = idade
+  self._celular = celular
+  self._email = email
+  self._genero = genero
 
-  def Usuario (self):
-    return f"Usuario: {self.nome}\nEndereço:{self.endereço}"
+  
+  
